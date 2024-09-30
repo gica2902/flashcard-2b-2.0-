@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+    font-family: 'bai jamjuree';
+}
+
+#container {
+    display: flex;
+}
+
+.cartao{
+margin: 1rem 1rem;
+
+
+
+
+
