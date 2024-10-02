@@ -1,5 +1,11 @@
+:root{
+    --text-color: #dbe4ef;
+    --card-front-color:#144480;
+    --card-back-color: #00f4bf;
+}
+
 body{
-    background-color: rgb(23, 93, 107);
+    background: url(img/bg-desktop.webp)
     font-family: 'bai jamjuree';
 }
 
@@ -9,19 +15,19 @@ body{
 
 .cartao{
 margin: 1rem 1rem;
-background-color: rgba(30, 203, 206, 0.785);
 height: 20rem;
 flex-grow: 1;
 flex-basis: calc(33% - 6rem);
 }
 
 .cartao_conteudo{
+    background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
 }
 
 .cartao_conteudo h3 {
-    background-color: rgb(55, 59, 183);
+    color: var(--text-color);
     text-align: left;
     padding-left: 0.5rem;
     position: absolute;
